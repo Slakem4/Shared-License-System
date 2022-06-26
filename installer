@@ -68,7 +68,7 @@ fi
 fi
 
 
-output=$( curl -s   "$api" )
+output=$( curl -s   "$200" )
 if [ "$status_code" != "200"  ];then
 printf "${RED}Something Went Wrong [Unknown Ip]  ${NC}\n"
 echo ""
